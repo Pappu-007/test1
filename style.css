@@ -1,14 +1,16 @@
-body {
+body{
     margin: 0;
+}
+.container{
     background-color: #FFFFFF;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .container1 {
-    background-color: #f5f0f0;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: #FFFFFF;
     text-align: center;
+    padding: 40px;
 }
 
 .c1_text{
@@ -20,6 +22,8 @@ body {
 .c1_text1{
     color: #1B4B36;
     padding: 10px 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .c1_text2{
@@ -30,6 +34,11 @@ body {
 
 .c1-img_section{
     margin-top: 50px;
+}
+
+.c1-img_section img{
+    width: 800px;
+    height: auto;
 }
 
 .video-overlay {
@@ -60,7 +69,7 @@ body {
     text-align: center;
 }
 
-.order-butt {
+.c1-order-butt {
     background-color: #1B4B36;
     color: #EBFF3D;
     padding: 10px 20px;
@@ -72,16 +81,14 @@ body {
     margin: 40px 0;
 }
 
-.order-butt .clic_icon{
+.c1-order-butt .clic_icon{
     height: auto;
     width: 30px;
     margin-left: 5px;
 }
 
 .container2 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 20px;
+    padding: 30px 150px;
     background-color: #FAFFCE;
     
 }
@@ -91,6 +98,7 @@ body {
     color: #1B4B36;
     margin-bottom: 30px;
     margin-left: 80px;
+    font-weight: bold;
     
 }
 
@@ -123,15 +131,35 @@ body {
     color: white; /* Change paragraph text color to white */
 }
 
+.c2-button-container {
+    text-align: center;
+}
+
+.c2-order-butt {
+    background-color: #1B4B36;
+    color: #EBFF3D;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.c2-order-butt .clic_icon{
+    height: auto;
+    width: 30px;
+    margin-left: 5px;
+}
 
 .container3 {
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 20px 20px;
-    background-color: #f5f0f0;
+    background-color: #FFFFFF;
     text-align: center;
     
 }
+
 .c3-text1{
     font-size: 40px;
 }
@@ -142,6 +170,7 @@ body {
     grid-template-columns: repeat(2 , 1fr);
     gap: 10px;
     margin-top: 70px;
+    padding: 0px 300px;
 }
 
 .c3-feature-card {
@@ -178,7 +207,7 @@ body {
      
 }
 
-.c3-button-container .order-butt{
+.c3-button-container .c3-order-butt{
     background-color: #EBFF3D;
     color: #1B4B36;
     padding: 10px 20px;
@@ -190,17 +219,14 @@ body {
     margin: 40px 0;
 }
 
-.c3-button-container .order-butt .clic_icon{
+.c3-button-container .c3-order-butt .clic_icon{
     height: auto;
     width: 30px;
     margin-left: 5px;
 }
 
-
 .container4 {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #f5f0f0;
+    background-color: #0C3200;
     padding: 20px 20px;
     
 }
